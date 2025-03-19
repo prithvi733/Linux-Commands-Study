@@ -19,6 +19,8 @@ ls
 ```
 
 **Output:**
+![WhatsApp Image 2025-03-19 at 15 48 08_d0cad3dc](https://github.com/user-attachments/assets/2b2e0636-fc83-4065-9b6a-f030674ea40c)
+
 
 ### 2. `pwd` Command
 
@@ -30,6 +32,8 @@ pwd
 ```
 
 **Output:**
+![screen shot 2 1](https://github.com/user-attachments/assets/2a9f8dd7-9ccb-400d-92ef-c6f9331536de)
+
 
 ### 3. `mkdir` Command
 
@@ -41,6 +45,8 @@ mkdir <directory_name>
 ```
 
 **Output:**
+![image](https://github.com/user-attachments/assets/8575e184-ac4f-469c-a2ac-748060f1151f)
+
 
 ### 4. `rmdir` Command
 
@@ -52,6 +58,8 @@ rmdir <directory_name>
 ```
 
 **Output:**
+![image](https://github.com/user-attachments/assets/71945fd8-69ec-4bbf-af77-925c253e3e76)
+
 
 ### 5. `cd` Command
 
@@ -63,6 +71,8 @@ cd <directory_name>
 ```
 
 **Output:**
+![image](https://github.com/user-attachments/assets/231edbf1-90d6-4c0e-9403-4b6e88930d16)
+
 
 ### 6. `cat` Command
 
@@ -74,6 +84,8 @@ cat [OPTION]... [FILE]...
 ```
 
 **Output:**
+![image](https://github.com/user-attachments/assets/b0b1404e-f47b-4bd3-8418-998c8a6ec3b7)
+
 
 ### 7. `cp` Command
 
@@ -85,6 +97,8 @@ cp <source_file> <destination_file>
 ```
 
 **Output:**
+![image](https://github.com/user-attachments/assets/beaa077b-6cff-41c3-aa2c-bed54e72c0bd)
+
 
 ### 8. `gedit` Command
 
@@ -96,6 +110,8 @@ gedit <file_name>
 ```
 
 **Output:**
+![image](https://github.com/user-attachments/assets/583ac267-89e6-442a-9b6f-3382e6c6b4f4)
+
 
 ### 9. `su` Command
 
@@ -107,6 +123,8 @@ su <username>
 ```
 
 **Output:**
+![image](https://github.com/user-attachments/assets/29dec518-4847-4624-81cf-28fb8013ee97)
+
 
 ### 10. `mv` Command
 
@@ -119,225 +137,8 @@ mv <file_name> <directory_path>
 
 **Output:**
 
-### 11. `rename` Command
+![image](https://github.com/user-attachments/assets/2cf6f0ea-ebb3-4ab3-b548-87e47979c8b9)
 
-The `rename` command is used to rename files.
-
-**Syntax:**
-```bash
-rename 's/old-name/new-name/' <files>
-```
-
-**Output:**
-
-### 12. `head` Command
-
-The `head` command displays the first 10 lines of a file.
-
-**Syntax:**
-```bash
-head <file_name>
-```
-
-**Output:**
-
-### 13. `tail` Command
-
-The `tail` command displays the last 10 lines of a file.
-
-**Syntax:**
-```bash
-tail <file_name>
-```
-
-**Output:**
-
-### 14. `id` Command
-
-The `id` command displays the user ID (UID) and group ID (GID).
-
-**Syntax:**
-```bash
-id
-```
-
-**Output:**
-
-### 15. `grep` Command
-
-The `grep` command is used to search for a pattern within files.
-
-**Syntax:**
-```bash
-command | grep <search_word>
-```
-
-**Output:**
-
-### 16. `tr` Command
-
-The `tr` command is used to translate or delete characters.
-
-**Syntax:**
-```bash
-command | tr <old> <new>
-```
-
-**Output:**
-
-### 17. `chmod` Command
-
-The `chmod` command is used to change the access mode (permissions) of a file.
-
-**Syntax:**
-```bash
-chmod <options> <permissions> <file_name>
-```
-
-**Output:**
-
-### 18. `tar` Command
-
-The `tar` command is used to create or extract archive files.
-
-**Syntax:**
-```bash
-tar [options] [archive-file] [files_to_archive]
-```
-
-**Output:**
-
-### 19. `chown` Command
-
-The `chown` command is used to change the ownership of a file.
-
-**Syntax:**
-```bash
-chown <owner_name> <file_name>
-```
-
-**Output:**
-
-### 20. `make` Command
-
-The `make` command is used to build and maintain groups of programs.
-
-**Syntax:**
-```bash
-make [-f makefile] [options] [targets]
-```
-
-**Output:**
-
-### 21. `ifconfig` Command
-
-The `ifconfig` command is used to configure network interfaces.
-
-**Syntax:**
-```bash
-ifconfig [options] [interface]
-```
-
-**Output:**
-
-### 22. `chmod 777` Command
-
-The `chmod 777` command gives read, write, and execute permissions to the owner, group, and others.
-
-**Syntax:**
-```bash
-chmod 777 <file_name>
-chmod -R 777 /path/to/file/or/folder
-```
-
-**Output:**
-
-### 23. `host` Command
-
-The `host` command is used to display the IP address for a given domain name.
-
-**Syntax:**
-```bash
-host <domain_name> or <ip_address>
-```
-
-**Output:**
-
-### 24. `gzip` Command
-
-The `gzip` command is used to compress files, replacing the original file with a compressed one with a `.gz` extension.
-
-**Syntax:**
-```bash
-gzip <file1> <file2> <file3>...
-```
-
-**Output:**
-
-### 25. `sort` Command
-
-The `sort` command is used to sort the contents of a file alphabetically.
-
-**Syntax:**
-```bash
-sort <file_name>
-```
-
-**Output:**
-
-### 26. `cal` Command
-
-The `cal` command displays the current month's calendar with the current date highlighted.
-
-**Syntax:**
-```bash
-cal
-```
-
-**Output:**
-
-### 27. `clear` Command
-
-The `clear` command clears the terminal screen.
-
-**Syntax:**
-```bash
-clear
-```
-
-**Output:**
-
-### 28. `mail` Command
-
-The `mail` command is used to send emails from the command line.
-
-**Syntax:**
-```bash
-mail
-```
-
-**Output:**
-
-### 29. `df` Command
-
-The `df` command displays the disk space usage of file systems.
-
-**Syntax:**
-```bash
-df
-```
-
-**Output:**
-
-### 30. `find` Command
-
-The `find` command is used to search for files in a directory hierarchy.
-
-**Syntax:**
-```bash
-find <directory> -name <file_name>
-```
-
-**Output:**
 
 ## Result
+Linux commands are executed in the linux terminal successfully.
